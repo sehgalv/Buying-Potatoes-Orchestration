@@ -7,7 +7,7 @@
         "url": "https://github.com/sehgalv/Buying-Potatoes-Orchestration.git"
     },
     "scripts": {
-        "install": "npm run cloneapi,
+        "install": "npm run cloneapi",
         "cloneapi": "git clone https://github.com/sehgalv/Buying-Potatoes-API.git && cd DnD-API && npm install && cd ..",
         "api": "cd Buying-Potatoes-API && node ./server.js"
     }
