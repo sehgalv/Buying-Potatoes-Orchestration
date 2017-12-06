@@ -8,7 +8,7 @@
     },
     "scripts": {
         "install": "npm run cloneapi",
-        "cloneapi": "git clone https://github.com/sehgalv/Buying-Potatoes-API.git && cd DnD-API && npm install && cd ..",
+        "cloneapi": "git clone https://github.com/sehgalv/Buying-Potatoes-API.git && cd Buying-Potatoes-API && npm install && cd ..",
         "api": "cd Buying-Potatoes-API && node ./server.js"
     }
 }
