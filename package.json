@@ -1,0 +1,14 @@
+{
+    "name": "buying-potatoes-orchestration",
+    "description": "",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sehgalv/Buying-Potatoes-Orchestration.git"
+    },
+    "scripts": {
+        "install": "npm run cloneapi && npm run clonefrontend",
+        "cloneapi": "git clone https://github.com/sehgalv/Buying-Potatoes-API.git && cd DnD-API && npm install && cd ..",
+        "api": "cd Buying-Potatoes-API && node ./server.js"
+    }
+}
