@@ -7,8 +7,10 @@
         "url": "https://github.com/sehgalv/Buying-Potatoes-Orchestration.git"
     },
     "scripts": {
-        "install": "npm run cloneapi",
+        "install": "npm run cloneapi && npm run cloneapp",
         "cloneapi": "git clone https://github.com/sehgalv/Buying-Potatoes-API.git && cd Buying-Potatoes-API && npm install && cd ..",
-        "api": "cd Buying-Potatoes-API && node ./server.js"
+        "cloneapp": "git clone https://github.com/parrycj/BuyingPotatoes.git && cd BuyingPotatoes && npm install && cd ..",        
+        "api": "cd Buying-Potatoes-API && node ./server.js",
+        "app": "cd BuyingPotatoes && ng serve --open"
     }
 }
